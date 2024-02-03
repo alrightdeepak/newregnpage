@@ -2,7 +2,13 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        bungeeinline: ['"Bungee Inline", sans-serif'],
+        orbitron: ['"Orbitron", sans-serif'],
+        playfair: ['"Playfair Display", serif']
+      }
+    },
   },
   plugins: [],
 }
